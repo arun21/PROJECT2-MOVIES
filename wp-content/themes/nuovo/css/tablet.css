@@ -1,0 +1,614 @@
+/* tablet.css
+*
+* Tablet Stylesheet
+*
+* Table of Contents
+* I. Screen Width between 650 px and 699px
+* II. Screen Width between 700 px and 979px
+*/
+/*
+I. Screen Width Between 650px and 699px---------------- */
+@media only screen and (min-width: 650px) and (max-width: 699px) {
+	/* Header -------------------- */
+	.header{
+		width: 100%;
+		margin: 0px;
+		float: none;
+		position: relative;
+	}
+	.masthead{
+		width: 650px;
+		margin: auto;
+		float: none;
+		position: relative;
+	}
+	h1.site-title, h2.site-description {
+		text-align: center;
+	}
+	.social-links{
+		width: 650px;
+		height: 50px;
+		margin: auto;
+		float: none;
+		position: relative;
+	}
+	.nuovo-social-link {
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+    .nuovo-social-link img {
+        width: 40px;
+        height: 40px;
+    }
+    .social-break {
+        clear: none;
+    }
+    /* Mobile Menu -------------------- */
+    .top-menu, .main-menu {
+        display: none;
+    }
+    .mobile-nav-area {
+        display: block !important;
+        width: 100%;
+    }
+    .mobile-nav-bar {
+        width: 100%;
+        height: 35px;
+        background-color: #252525;
+        text-align: center;
+        padding: 3px 0px;
+    }
+    .mobile-nav-icon {
+        text-align: left;
+        width: 30px;
+        float: left;
+        position: relative;
+        margin-top: 1px;
+        margin-left: 5px
+    }
+    .mobile-nav-bar h5 {
+        color: #ffffff;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        padding-bottom: 2px;
+        margin: 0px;
+    }
+    .mobile-nav {
+        width: 100%;
+        background-color: #252525;
+        height: auto;
+    }
+    .mobile-nav-left {
+        width: 50%;
+        float: left;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400 !important;
+        font-size: 20px;
+        background-color: #bcbcbc;
+    }
+    .mobile-nav-left ul {
+        list-style: none;
+        margin: 0 0 0 0px;
+        padding-left: 0;
+    }
+    .mobile-nav-left li {
+        display: block;
+        width: 100%;
+        padding: 5px -3px 5px 3px;
+        background-color: #bcbcbc;
+        margin-bottom: 4px
+    }
+    .mobile-nav-left li:last-child {
+        margin-bottom: 0px;
+    }
+    .mobile-nav-left a {
+        color: #ffffff;
+        display: block;
+        padding: 5px 12px;
+        text-decoration: none;
+    }
+    .mobile-nav-left ul > li {
+        margin-left: 0px;
+    }
+    .mobile-nav-left ul ul {
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    .mobile-nav-left ul ul li {
+        background: #6C6C6C;
+    }
+    .mobile-nav-left ul ul ul {
+        left: 100%;
+        top: 0;
+    }
+    .mobile-nav-left ul ul a {
+        background: #262626;
+        color: #ffffff;
+        height: auto;
+        line-height: 39px;
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .mobile-nav-left li:hover > a,
+    .mobile-nav-left li:hover,
+    .mobile-nav-left ul ul li:hover > a,
+    .mobile-nav-left a:focus {
+        background: #6C6C6C;
+        color: #ffffff;
+    }
+    .mobile-nav-left li:hover > a,
+    .mobile-nav-left li:hover,
+    .mobile-nav-left a:focus {
+        background: #262626;
+        color: #ffffff;
+    }
+    .mobile-nav-left ul li:hover > ul {
+        display: block;
+        position: static;
+    }
+    .mobile-nav-left .current-menu-item > a,
+    .mobile-nav-left .current-menu-ancestor > a,
+    .mobile-nav-left .current_page_item > a,
+    .mobile-nav-left .current_page_ancestor > a {
+    }
+    .mobile-nav-right {
+        width: 50%;
+        float: left;
+        position: relative;
+        background-color: #262626
+    }
+    .mobile-nav-right ul {
+        list-style: none;
+        margin: 0 0 0 0px;
+        padding-left: 0;
+    }
+    .mobile-nav-right li {
+        display: block;
+        width: 100%;
+        padding: 5px -3px 5px 3px;
+        margin-bottom: 4px;
+    }
+    .mobile-nav-right li:last-child {
+        margin-bottom: 0px;
+    }
+    .mobile-nav-right a {
+        color: #ffffff;
+        display: block;
+        line-height: 41px;
+        padding: 0 12px;
+        padding-right: 0px;
+        text-decoration: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .mobile-nav-right ul > li {
+        margin-left: 0px;
+    }
+    .mobile-nav-right ul ul {
+        display: none;
+        float: left;
+        position: absolute;
+        width: 100%;
+    }
+    .mobile-nav-right ul ul li {
+        background-color: #bcbcbc;
+        margin-bottom: 0px;
+    }
+    .mobile-nav-right ul ul ul {
+        left: 100%;
+        top: 0;
+    }
+    .mobile-nav-right ul ul a {
+        background: #bcbcbc;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        height: auto;
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .mobile-nav-right li:hover > a,
+    .mobile-nav-right li:hover,
+    .mobile-nav-right ul ul li:hover > a,
+    .mobile-nav-right a:focus {
+        background: #262626;
+        color: #ffffff;
+    }
+    .mobile-nav-right li:hover > a,
+    .mobile-nav-right li:hover,
+    .mobile-nav-right a:focus {
+        background: #bcbcbc;
+        color: #ffffff;
+    }
+    .mobile-nav-right ul li:hover > ul {
+        display: block;
+        position: static;
+    }
+    .main-menu .current-menu-item > a,
+    .main-menu .current-menu-ancestor > a,
+    .main-menu .current_page_item > a,
+    .main-menu .current_page_ancestor > a {
+    }
+    /* Wrap -------------------- */
+    .wrap{
+        width: 650px;
+        margin: auto;
+    }
+    /* Homepage -------------------- */
+    /* Slideshow -------------------- */
+    .slideshow-area{
+		width: 100%;
+		height: 325px;
+		margin-top: 40px;
+		display: block;
+		float: none;
+	}
+	.slideshow-nav{
+		width: 639px;
+		height: 285px;
+		margin: auto;
+		position: relative;
+	}
+	.slideshow{
+		width: 541px;
+		height: 270px;
+		margin: 0px;
+		left: 50px;
+		top: 16px;
+		padding: 0px;
+		position: absolute;
+        border-right: 1px solid #000000;
+	}
+	.slide{
+		width: 540px !important;
+		height: 270px !important;
+		border: 0px solid #000000;
+		border-right: 0px solid #000000;
+		overflow: hidden;
+	}
+	.slide-photo{
+		width: 540px;
+		height: 270px;
+		float: left;
+		border-right: 1px solid #000000;
+	}
+	.slide-panel{
+		width: 538px;
+		background-color: #252525;
+		opacity: .85;
+		bottom: 0px;
+		top: auto;
+		height: auto;
+		position: absolute;
+		border-left: 0px;
+		border-right: 0px;
+		padding-left: 5px;
+		padding-right: 0px;
+		margin: 0px;
+		margin-right: 0px;
+		margin-bottom: -2px;
+		display: block;
+	}
+	.slide-panel p, .slide-panel hr, .slide-panel .read-more {
+		display: none;
+	}
+	.slide-panel-title, .slide-panel-title a, .slide-panel-title a:link, .slide-panel-title a:visited, .slide-panel-title a:hover{
+		font-size: 22px;
+		color: #FFFFFF !important;
+		font-family: 'PT Sans Narrow';
+		font-weight: 400;
+	}
+	.slide-panel-meta{
+		font-size: 14px;
+	}
+	.slide-panel-meta, .slide-panel-meta a, .slide-panel-meta a:link, .slide-panel-meta a:hover, .slide-panel-meta a:visited{
+		font-size: 14px;
+		color: #FFFFFF;
+		margin-top: 2px;
+		margin-left: 5px;
+	}
+	p.slide-panel-meta {
+		display: block;
+	}
+	.slideshow-next{
+		width: 50px;
+		height: 270px;
+		top: 16px;
+		right: 0px;
+		position: absolute;
+		margin: 0px;
+		border: 1px solid #000000;
+	}
+	.slideshow-previous{
+		width: 50px;
+		height: 270px;
+		top: 16px;
+		left: 0px;
+		position: absolute;
+		border: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		margin: 0px;
+	}
+	.slideshow-next img{
+		width: 50px;
+		height: 268px;
+	}
+	.slideshow-previous img{
+		width: 50px;
+		height: 268px;
+	}
+	/* Posts Section -------------------- */
+	.home-posts-area{
+		width: 640px;
+		float: none;
+		position: relative;
+		margin: auto;
+	}
+	.home-post{
+     	width: 200px;
+ 	}
+	.home-post:nth-child(3n) {
+     	margin-right: 0px;
+	}
+	/* Latest Posts Section -------------------- */
+    .latest-posts-headline-area{
+        width: 510px;
+        margin: auto;
+        float: right;
+        position: relative;
+    }
+	/* Single Post -------------------- */
+	.post-single{
+		float: none;
+		margin: 5px auto;
+	}
+	/* Index -------------------- */
+    .index{
+        float: none;
+        position: relative;
+        margin: 5px auto;
+    }
+    /* Page -------------------- */
+    .page-single {
+        float: none;
+        margin: 5px auto;
+    }
+    /* 404 Page -------------------- */
+    .post-404 {
+        float: none;
+        margin: 5px auto;
+    }
+    /* Sidebar -------------------- */
+    .sidebar{
+    	width: 640px;
+        float: none;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    /* Widgets -------------------- */
+    .widget-wrap{
+        margin: 10px 0px;
+        width: 100%;
+    }
+}
+/*
+II. Screen Width Between 700px and 979px---------------- */
+@media only screen and (min-width: 700px) and (max-width: 979px) {
+	/* Header -------------------- */
+	.header{
+		width: 100%;
+		margin: 0px;
+		float: none;
+		position: relative;
+	}
+	.masthead{
+		width: 700px;
+		margin: auto;
+		float: none;
+		position: relative;
+	}
+	h1.site-title, h2.site-description {
+		text-align: center;
+	}
+	.social-links{
+		width: 700px;
+		height: 50px;
+		margin: auto;
+		float: none;
+		position: relative;
+	}
+	.nuovo-social-link {
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+    .nuovo-social-link img {
+        width: 40px;
+        height: 40px;
+    }
+    .social-break {
+        clear: none;
+    }
+
+    /* Wrap -------------------- */
+    .wrap{
+        width: 700px;
+        margin: auto;
+    }
+    /* Homepage -------------------- */
+    /* Slideshow -------------------- */
+    .slideshow-area{
+		width: 100%;
+		height: 325px;
+		margin-top: 40px;
+		display: block;
+		float: none;
+	}
+	.slideshow-nav{
+		width: 670px;
+		height: 285px;
+		margin: auto;
+		position: relative;
+	}
+	.slideshow{
+		width: 570px;
+		height: 285px;
+		margin: 0px;
+		left: 50px;
+		top: 16px;
+		padding: 0px;
+		position: absolute;
+	}
+	.slide{
+		width: 570px !important;
+		height: 285px !important;
+		border: 0px solid #000000;
+		border-right: 0px solid #000000;
+		overflow: hidden;
+	}
+	.slide-photo{
+		width: 570px;
+		height: 285px;
+		float: left;
+		border-right: 1px solid #000000;
+	}
+	.slide-panel{
+		width: 570px;
+		background-color: #252525;
+		opacity: .85;
+		bottom: 0px;
+		top: auto;
+		height: auto;
+		position: absolute;
+		border-left: 0px;
+		border-right: 0px;
+		padding-left: 5px;
+		padding-right: 0px;
+		margin: 0px;
+		margin-right: -3px;
+		margin-bottom: -2px;
+		display: block;
+	}
+	.slide-panel p, .slide-panel hr, .slide-panel .read-more {
+		display: none;
+	}
+	.slide-panel-title, .slide-panel-title a, .slide-panel-title a:link, .slide-panel-title a:visited, .slide-panel-title a:hover{
+		font-size: 22px;
+		color: #FFFFFF !important;
+		font-family: 'PT Sans Narrow';
+		font-weight: 400;
+	}
+	.slide-panel-meta{
+		font-size: 14px;
+	}
+	.slide-panel-meta, .slide-panel-meta a, .slide-panel-meta a:link, .slide-panel-meta a:hover, .slide-panel-meta a:visited{
+		font-size: 14px;
+		color: #FFFFFF;
+		margin-top: 2px;
+		margin-left: 5px;
+	}
+	p.slide-panel-meta {
+		display: block;
+	}
+	.slideshow-next{
+		width: 50px;
+		height: 285px;
+		top: 16px;
+		right: 0px;
+		position: absolute;
+		margin: 0px;
+		border: 1px solid #000000;
+	}
+	.slideshow-previous{
+		width: 50px;
+		height: 285px;
+		top: 16px;
+		left: 0px;
+		position: absolute;
+		border: 1px solid #000000;
+		border-bottom: 1px solid #000000;
+		margin: 0px;
+	}
+	.slideshow-next img{
+		width: 50px;
+		height: 283px;
+	}
+	.slideshow-previous img{
+		width: 50px;
+		height: 283px;
+	}
+	/* Posts Section -------------------- */
+	.home-posts-area{
+		width: 680px;
+		float: none;
+		position: relative;
+		margin: auto;
+	}
+	.home-post{
+     	width: 200px;
+     	margin-right: 20px;
+ 	}
+	.home-post:nth-child(3n) {
+     	margin-right: 0px;
+	}
+	/* Latest Posts Section -------------------- */
+    .latest-posts-headline-area{
+        width: 550px;
+        margin: auto;
+        float: right;
+        position: relative;
+    }
+	/* Single Post -------------------- */
+	.post-single{
+		width: 680px;
+		float: none;
+		margin: 5px auto;
+	}
+	.post-single .featured-photo{
+		margin: auto;
+	}
+	.post-single .author-bio{
+		width: 670px;
+	}
+	/* Index -------------------- */
+    .index{
+    	width: 680px;
+        float: none;
+        position: relative;
+        margin: 5px auto;
+    }
+    /* Author Bio -------------------- */
+    .index .author-bio{
+        width: 665px;
+        margin: auto;
+    }
+    /* Page -------------------- */
+    .page-single {
+    	width: 680px;
+        float: none;
+        margin: 5px auto;
+    }
+    /* 404 Page -------------------- */
+    .post-404 {
+    	width: 680px;
+        float: none;
+        margin: 5px auto;
+    }
+    /* Sidebar -------------------- */
+    .sidebar{
+    	width: 680px;
+        float: none;
+        margin: 10px auto;
+        padding: 0px;
+    }
+    /* Widgets -------------------- */
+    .widget-wrap{
+        margin: 10px 0px;
+        width: 100%;
+    }
+}

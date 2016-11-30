@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nuovo\n"
+"POT-Creation-Date: 2015-07-27 18:32-0500\n"
+"PO-Revision-Date: 2015-07-27 18:46-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid ""
+"We're sorry, but the post or page you are looking for is not here. It may "
+"have been removed before you got here or you have a bad link. You can either "
+"go back to the "
+msgstr ""
+"Es tut uns leid, aber die Post oder die Seite, die du suchst ist nicht hier. "
+"Es kann entfernt worden sein, bevor du hier oder Sie eine schlechte "
+"Verbindung haben. Sie können auch zurück zu den"
+
+#: 404.php:21
+msgid "homepage"
+msgstr "Startseite"
+
+#: 404.php:21
+msgid " or use the search form below to find another post."
+msgstr ""
+"oder verwenden Sie das Suchformular unten, um eine andere Stelle zu finden."
+
+#: admin/theme-options.php:18
+msgid "General Settings"
+msgstr "Grundeinstellungen"
+
+#: admin/theme-options.php:19
+msgid "This is the general settings section."
+msgstr "Dies ist dem Abschnitt Allgemeine Einstellungen."
+
+#: admin/theme-options.php:36
+msgid "Custom RSS Feed"
+msgstr " RSS Feed"
+
+#: admin/theme-options.php:54
+msgid "Color Theme"
+msgstr "Farbschema"
+
+#: admin/theme-options.php:58 admin/theme-options.php:504
+msgid "Default"
+msgstr "Standard"
+
+#: admin/theme-options.php:59 admin/theme-options.php:505
+msgid "Blue"
+msgstr "Blau"
+
+#: admin/theme-options.php:60 admin/theme-options.php:506
+msgid "Green"
+msgstr "Grün"
+
+#: admin/theme-options.php:61 admin/theme-options.php:507
+msgid "Orange"
+msgstr "Orange"
+
+#: admin/theme-options.php:62 admin/theme-options.php:508
+msgid "Purple"
+msgstr "Violett"
+
+#: admin/theme-options.php:63 admin/theme-options.php:509
+msgid "Red"
+msgstr "Rot"
+
+#: admin/theme-options.php:64 admin/theme-options.php:510
+msgid "Yellow"
+msgstr "Gelb"
+
+#: admin/theme-options.php:81 functions.php:28
+msgid "Top Menu"
+msgstr "Oberes Menü"
+
+#: admin/theme-options.php:99
+msgid "Author Bio"
+msgstr "Autoren Bio"
+
+#: admin/theme-options.php:114
+msgid "Social Media Settings"
+msgstr "Social Media-Einstellungen"
+
+#: admin/theme-options.php:115
+msgid "This is the social media settings section."
+msgstr "Dies ist die social-Media-Einstellungsabschnitt."
+
+#: admin/theme-options.php:132
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+#: admin/theme-options.php:150
+msgid "Twitter Link"
+msgstr "Twitter Link"
+
+#: admin/theme-options.php:168
+msgid "YouTube Link"
+msgstr "Youtube Link"
+
+#: admin/theme-options.php:186
+msgid "Google+ Link"
+msgstr "Google+ Link"
+
+#: admin/theme-options.php:204
+msgid "LinkedIn Link"
+msgstr "LinkedIn Link"
+
+#: admin/theme-options.php:222
+msgid "Instagram Link"
+msgstr "Instagram Link"
+
+#: admin/theme-options.php:240
+msgid "Tumblr Link"
+msgstr "Tumblr Link"
+
+#: admin/theme-options.php:258
+msgid "Pinterest Link"
+msgstr "Pinterest Link"
+
+#: admin/theme-options.php:272 admin/theme-options.php:532
+msgid "None"
+msgstr "Keine"
+
+#: admin/theme-options.php:280
+msgid "Homepage Options"
+msgstr "Optionen Startseite"
+
+#: admin/theme-options.php:281
+msgid "This is the homepage settings section."
+msgstr "Dies ist die Homepage Einstellungsabschnitt."
+
+#: admin/theme-options.php:298
+msgid "Slideshow Category"
+msgstr "Slideshow Kategorie"
+
+#: admin/theme-options.php:317
+msgid "Number of Slideshow Posts"
+msgstr "Anzahl der Beiträge für die Diashow"
+
+#: admin/theme-options.php:335
+msgid "First Category"
+msgstr "Erste Kategorie"
+
+#: admin/theme-options.php:354
+msgid "Number of Posts in the First Section"
+msgstr "Anzahl der Beiträge im ersten Abschnitt"
+
+#: admin/theme-options.php:372
+msgid "Second Category"
+msgstr "Zweite Kategorie"
+
+#: admin/theme-options.php:391
+msgid "Number of Posts in the Second Section"
+msgstr "Anzahl der Beiträge im zweiten Abschnitt"
+
+#: admin/theme-options.php:409
+msgid "Third Category"
+msgstr "Dritte Kategorie"
+
+#: admin/theme-options.php:428
+msgid "Number of Posts in the Third Section"
+msgstr "Anzahl der Beiträge im dritten Abschnitt"
+
+#: admin/theme-options.php:446
+msgid "Fourth Category"
+msgstr "Vierte Kategorie"
+
+#: admin/theme-options.php:465
+msgid "Number of Posts in the Fourth Section"
+msgstr "Anzahl der Beiträge im vierten Abschnitt"
+
+#: admin/theme-options.php:483
+msgid "Number of Latest Posts"
+msgstr "Anzahl der neusten Beiträge"
+
+#: archive.php:23 author.php:24 home.php:69 home.php:104 home.php:140
+#: home.php:176 index.php:24
+msgid "Off"
+msgstr "Aus"
+
+#: archive.php:29 author.php:30 functions.php:313 home.php:34 home.php:73
+#: home.php:108 home.php:144 home.php:180 home.php:209 index.php:30
+msgid "Written By: "
+msgstr "Geschrieben von: "
+
+#: archive.php:29 author.php:30 index.php:30
+msgid "on"
+msgstr "ein"
+
+#: archive.php:31 author.php:32 home.php:35 index.php:32
+msgid "Posted in: "
+msgstr "Veröffentlicht in: "
+
+#: archive.php:40 author.php:40 index.php:40
+msgid "<div class=\"next-posts\">Older Posts&rsaquo;&rsaquo;</div>"
+msgstr "<div class=“next-posts”>Ältere Posts&rsaquo;&rsaquo;</div>"
+
+#: archive.php:41 author.php:41 index.php:41
+msgid "<div class=\"previous-posts\">&lsaquo;&lsaquo;Newer Posts</div>"
+msgstr "<div class=“previous-posts”>&lsaquo;&lsaquo;Neuere Posts</div>"
+
+#: author.php:16
+msgid "Posts by "
+msgstr "Beiträge von "
+
+#: comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieses Inserat ist passwortgesch&uuml;tzt. Bitte geben Sie das Passwort ein, "
+"um die Kommentare zu sehen."
+
+#: comments.php:23
+msgid "No Responses"
+msgstr "Keine Antworten"
+
+#: comments.php:23
+msgid "One Response"
+msgstr "Eine Antwort"
+
+#: comments.php:23
+msgid "% Responses"
+msgstr "% Antworten"
+
+#: comments.php:23
+msgid "to"
+msgstr "bis"
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr "Kommentare sind nicht möglich."
+
+#: footer.php:15
+msgid "Copyright"
+msgstr "Copyright"
+
+#: functions.php:29
+msgid "Main Menu"
+msgstr "Haupmenü"
+
+#: functions.php:82
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:101
+msgid "Continue Reading&rsaquo;&rsaquo;"
+msgstr "Weiterlesen&rsaquo;&rsaquo;"
+
+#: functions.php:292 home.php:35 home.php:209
+msgid "0 Comments"
+msgstr "0 Kommentare"
+
+#: functions.php:294 home.php:35 home.php:209
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: functions.php:296
+msgid " Comments"
+msgstr "% Kommentare"
+
+#: functions.php:299 home.php:35
+msgid "Comments Off"
+msgstr "Kommentare geschlossen"
+
+#: functions.php:316
+msgid "Tags: "
+msgstr "Suchbegriffe:"
+
+#: functions.php:331 functions.php:334 functions.php:337
+msgid "Archives for "
+msgstr "Archive für"
+
+#: functions.php:343
+msgid "Search results for "
+msgstr "Suchergebnisse für "
+
+#: functions.php:350 index.php:16
+msgid "Page "
+msgstr "Seite"
+
+#: functions.php:367
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:368
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s am %2$s"
+
+#: functions.php:368
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: functions.php:373
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Freischaltung."
+
+#: functions.php:390
+msgid "del"
+msgstr "löschen"
+
+#: functions.php:391
+msgid "spam"
+msgstr "spam"
+
+#: functions.php:407
+msgid "About "
+msgstr "Über"
+
+#: header.php:52
+msgid "Go to..."
+msgstr "Gehe zu…"
+
+#: home.php:35 home.php:209
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: home.php:80 home.php:115 home.php:151 home.php:187
+msgid "View All &rsaquo;&rsaquo;"
+msgstr "Alle Anzeigen&rsaquo;&rsaquo;"
+
+#: home.php:194
+msgid "Latest Posts"
+msgstr "Letzte Beiträge"
+
+#: home.php:209
+msgid "Comments Closed"
+msgstr "Kommentare sind geschlossen."
+
+#: home.php:214
+msgid "<span class=\"next-posts\">Next Posts&rsaquo;&rsaquo;</span>"
+msgstr "<span class=“next-posts”>Nächste Artikel&rsaquo;&rsaquo;</span>"
+
+#. Theme Name of the plugin/theme
+msgid "Nuovo"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.jacobmartella.com/nuovo-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Nuovo gives the user almost complete control over the look and feel of his "
+"or her website. Users can select the color theme they want, what posts they "
+"want to show up in the homepage slider as well as in four separate areas on "
+"the homepage and can display the social media links they want in the header "
+"— all from the Customizer. Nuovo is also responsive, making it look good on "
+"any device with no extra work required."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jacob Martella"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.jacobmartella.com/"
+msgstr ""
