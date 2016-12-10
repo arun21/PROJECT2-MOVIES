@@ -1,0 +1,48 @@
+==========================================================================================
+                 Manage Issue Based Magazine WordPress Theme Change Log
+==========================================================================================
+Version 1.0.12 - Released 14 Oct 2015
+-----------------------------------
+	- Added author-listing template.
+	- Added "PRO version" and "Documentation" button in customizer.
+	- Design changes for search widget.
+	- Changes in main.css and author.php.
+	
+Version 1.0.11 - Released 17 Sep 2015
+-----------------------------------
+	- Change pagination function to handle more number of pages.
+	- Added alt tag in image tag for post and page.
+
+Version 1.0.10 - Released 12 Sep 2015
+-----------------------------------
+	- Change credits for theme-layout file.
+	- Change TGM-Plugin-Activation file.
+	- Changes in theme-functions.php file
+	- Copyright/license info for the Theme Layouts script, TGM-Plugin-Activation is listed in readme file.
+	
+
+Version 1.0.9 - Released 21 Aug 2015
+-----------------------------------
+	- Added homepage color option in customizer
+	- Changed screenshot
+	- Changes in css file
+
+Version 1.0.8 - Released 07 Aug 2015
+-----------------------------------
+	- Change Author Name From August Infotech to PurpleMAD
+	
+Version 1.0.7 - Released 01 Aug 2015
+-----------------------------------
+* Responsive Design: Tablet and Mobile Optimized
+* Touch-Swipe Enabled
+* Real-Time Theme Customizer
+* Support for Web Fonts
+* Built with HTML5 and CSS3
+* SEO Optimized
+* Well organized, commented & clean code
+* Cross-Browser Compatibility
+* Translatable
+* Includes the Font Awesome icon set
+* Compatible with popular plugins
+* Child Theme Support for Advanced Users
+* Powered by Bootstrap	
