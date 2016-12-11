@@ -14,7 +14,6 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<?php printf( __( 'Powered by %1$s.', 'synapse' ), '<a href="'.esc_url("https://rohitink.com/2015/05/21/synapse-woocommerce-theme/").'" rel="nofollow">Synapse Theme</a>' ); ?>
 			<span class="sep"></span>
 			<?php echo ( get_theme_mod('synapse_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','synapse')) : esc_html( get_theme_mod('synapse_footer_text') ); ?>
 		</div><!-- .site-info -->
